@@ -1,3 +1,78 @@
-header {
-    background-color: rosybrown;
+body {
+    font-family: 'Bebas Neue', cursive;
+}
+
+.big-banner {
+
+    background: url('../img/threetime1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 250px;
+    color: ivory;
+    height: 600px;
+
+}
+
+#slogan {
+    height: 300px;
+}
+
+#slogan h1{
+    font-size: 40px;
+    text-shadow: 2px 2px #4b4a46;
+
+}
+
+#topnav a:hover {
+    color:yellow;
+} 
+
+nav .navbar-nav li a{
+    color: ivory;
+    text-shadow: 2px 2px #4b4a46;
+
+}
+
+nav .navbar-nav li a:hover{
+    color: yellow;
+}
+
+
+.navbar-brand {
+    color:ivory;
+    font-size: 2rem;
+}
+
+.navbar-brand a:hover{
+    color:blue;
+}
+
+#coming-soon {
+    font-family: 'Quicksand', sans-serif;
+    color: rgb(58, 57, 57);
+    font-weight: 700;
+}
+
+#description {
+    background-color: #F7F3E3;
+    color: #222;
+    text-transform: uppercase;
+    font-weight: bold;
+    
+}
+
+#description a {
+    color:  #222;
+}
+
+#date {
+    background-color: #F7F3E3;
+    color: #222;
+}
+
+
+#why {
+    font-family: 'Quicksand', sans-serif;
+    color: rgb(58, 57, 57);
+    font-weight: 700;
 }
